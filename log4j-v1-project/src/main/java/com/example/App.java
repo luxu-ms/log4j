@@ -1,15 +1,12 @@
 package com.example;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 
 public class App {
-    private static final Logger logger = Logger.getLogger(App.class);
+    private static final Logger logger = LogManager.getLogger(App.class);
 
     public static void main(String[] args) {
-        // Configure Log4j
-        PropertyConfigurator.configure("log4j.properties");
-
         logger.debug("Debug message");
         logger.info("Info message - Application started");
         logger.warn("Warning message");
@@ -25,7 +22,7 @@ public class App {
         logger.info("Performing some operation...");
         try {
             int result = divide(10, 2);
-            logger.info("Division result: " + result);
+            logger.info("Division result: {}", result);
         } catch (Exception e) {
             logger.error("Error during operation", e);
         }
