@@ -1,0 +1,8 @@
+2025-12-05 09:25:23 DEBUG App:13 - Debug message
+2025-12-05 09:25:23 INFO  App:14 - Info message - Application started
+2025-12-05 09:25:23 WARN  App:15 - Warning message
+2025-12-05 09:25:23 ERROR App:16 - Error message
+2025-12-05 09:25:23 FATAL App:17 - Fatal message
+2025-12-05 09:25:23 INFO  App:25 - Performing some operation...
+2025-12-05 09:25:23 INFO  App:28 - Division result: 5
+2025-12-05 09:25:23 INFO  App:21 - Application finished

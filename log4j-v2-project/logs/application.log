@@ -1,0 +1,8 @@
+2025-12-05 09:26:13 DEBUG com.example.App - Debug message
+2025-12-05 09:26:13 INFO  com.example.App - Info message - Application started
+2025-12-05 09:26:13 WARN  com.example.App - Warning message
+2025-12-05 09:26:13 ERROR com.example.App - Error message
+2025-12-05 09:26:13 FATAL com.example.App - Fatal message
+2025-12-05 09:26:13 INFO  com.example.App - Performing some operation...
+2025-12-05 09:26:13 INFO  com.example.App - Division result: 5
+2025-12-05 09:26:13 INFO  com.example.App - Application finished
