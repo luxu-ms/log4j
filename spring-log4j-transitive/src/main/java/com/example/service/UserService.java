@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 
 /**
  * User service that uses SLF4J for logging.
- * The application doesn't directly use Log4j 1.x, but it comes as a transitive dependency
- * through slf4j-log4j12 binding.
+ * The application uses Log4j 2.x as the backend logging implementation
+ * through log4j-slf4j-impl binding.
  */
 @Service
 public class UserService {

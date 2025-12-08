@@ -9,15 +9,15 @@ import com.example.service.UserService;
 
 /**
  * Spring application that uses SLF4J for logging.
- * Log4j 1.x is not directly used in the code but comes as a transitive dependency
- * through slf4j-log4j12 binding. This represents a typical scenario in older Spring
- * applications where Log4j 1.x is pulled in transitively.
+ * Log4j 2.x is used as the backend logging implementation
+ * through log4j-slf4j-impl binding. This represents the recommended approach
+ * for Spring applications using modern logging infrastructure.
  */
 public class App {
     private static final Logger logger = LoggerFactory.getLogger(App.class);
     
     public static void main(String[] args) {
-        logger.info("Starting Spring application with transitive Log4j 1.x dependency");
+        logger.info("Starting Spring application with Log4j 2.x backend");
         
         // Initialize Spring context
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
