@@ -1,6 +1,6 @@
 ---
 id: upgrade-log4j-from-v1-to-v2-1764915895011
-name: Upgrade log4j from v1 to v2
+name: Upgrade log4j from v1 to v2 (OpenRewrite)
 type: task
 ---
 
