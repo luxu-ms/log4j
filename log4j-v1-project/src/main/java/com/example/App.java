@@ -13,7 +13,7 @@ public class App {
         logger.info("Info message - Application started");
         logger.warn("Warning message");
         logger.error("Error message");
-        logger.error("Fatal message");
+        logger.fatal("Fatal message");
 
         performSomeOperation();
 
